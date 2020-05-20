@@ -1,12 +1,10 @@
 <template>
-  <div id="login">
     <input type="button" value="点击跳转到index页面" @click="go()" />
-  </div>
 </template>
 
 <script>
 export default {
-  name: "login",
+  name: "second",
   methods: {
     go() {
       window.location.href = "/";
@@ -15,7 +13,7 @@ export default {
 };
 </script>
 <style lang="scss">
-#login {
+#second {
   background: red;
 }
 </style>
