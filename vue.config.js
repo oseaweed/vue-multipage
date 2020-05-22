@@ -1,10 +1,11 @@
 module.exports = {
     pages: {
         first: {
-            // page 的入口
-            entry: 'src/main.js',
-            // 模板来源
             template: 'public/first.html',
+
+            // page 的入口
+            entry: 'src/pages/first/first.js',
+            // 模板来源
             // 在 dist/index.html 的输出
             filename: 'first.html',
             // 当使用 title 选项时，
@@ -13,7 +14,7 @@ module.exports = {
             // 提取出来的通用 chunk 和 vendor chunk。
             //chunks: ["chunk-vendors", "chunk-common", "index"]
         },
-        login: {
+        second: {
             template: 'public/second.html',
             entry: 'src/pages/second/second.js',
             filename: 'second.html',

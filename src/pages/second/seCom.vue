@@ -1,5 +1,5 @@
 <template>
-    <input type="button" value="点击跳转到index页面" @click="go()" />
+    <input type="button" value="1" @click="go()" />
 </template>
 
 <script>
