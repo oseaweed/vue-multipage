@@ -1,7 +1,7 @@
 <template>
   <div id="second">
-    <!-- <input type="button" value="点击跳转到index页面" @click="go()" /> -->
-    <router-view></router-view>
+    <input type="button" value="点击跳转到index页面" @click="go()" />
+    <!-- <router-view></router-view> -->
   </div>
 </template>
 
