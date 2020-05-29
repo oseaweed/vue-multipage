@@ -3,7 +3,7 @@ module.exports = {
     first: {
       entry: "src/pages/first/first.js",
       template: "public/first.html",
-      filename: "first1.html",
+      filename: "first.html",
       title: "firstPage",
     },
     second: {
