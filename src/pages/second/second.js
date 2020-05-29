@@ -1,9 +1,9 @@
-
-import Vue from 'vue'
-import Second from './second.vue'
-
-Vue.config.productionTip = false
+import Vue from "vue";
+import Second from "./second.vue";
+import router from "../../router/second.js";
+Vue.config.productionTip = false;
 
 new Vue({
-    render: h => h(Second)
-}).$mount('#second')
+  router,
+  render: (h) => h(Second),
+}).$mount("#second");

@@ -1,15 +1,19 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-
+import first from '../pages/first/first';
 Vue.use(VueRouter);
 
 const routes = [
+  {
+    path: "/",
+    name: "firstView",
+    component: first
+  },
 
   {
-    path: "/secondview/",
-    name: "secondview",
-    component: () =>
-      import(`../views/secondView.vue`),
+    path: "/firstview",
+    name: "firstView",
+    component: () => import(`../views/firstView.vue`),
   },
 ];
 
