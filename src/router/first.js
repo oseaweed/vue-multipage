@@ -1,6 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import first from '../pages/first/first';
+import first from "../pages/first/first";
 Vue.use(VueRouter);
 
 const routes = [
@@ -13,14 +13,14 @@ const routes = [
   {
     path: "/firstview",
     name: "firstView",
-    component: () => import(`../views/firstView.vue`),
-  },
+    component: () => import(`../views/firstView.vue`)
+  }
 ];
 
 const router = new VueRouter({
   // mode: "history",
   base: process.env.BASE_URL,
-  routes,
+  routes
 });
 
 export default router;

@@ -4,19 +4,17 @@ import VueRouter from "vue-router";
 Vue.use(VueRouter);
 
 const routes = [
-
   {
     path: "/secondview/",
     name: "secondview",
-    component: () =>
-      import(`../views/secondView.vue`),
-  },
+    component: () => import(`../views/secondView.vue`)
+  }
 ];
 
 const router = new VueRouter({
   // mode: "history",
   base: process.env.BASE_URL,
-  routes,
+  routes
 });
 
 export default router;
